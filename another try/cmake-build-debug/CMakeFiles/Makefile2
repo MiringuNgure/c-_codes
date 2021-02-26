@@ -48,10 +48,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\another try"
+CMAKE_SOURCE_DIR = "E:\new_try\another try"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\another try\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\new_try\another try\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles\another_try.dir\clean
 CMakeFiles\another_try.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\another_try.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\another_try.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\another_try.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\another_try.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\another try\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target another_try"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\new_try\another try\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target another_try"
 .PHONY : CMakeFiles\another_try.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\another_try.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\another try\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\new_try\another try\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\another_try.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\another try\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\new_try\another try\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\another_try.dir\rule
 
 # Convenience name for target.

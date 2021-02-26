@@ -4,7 +4,7 @@ int main() {
     int n;
     std::cout<< "n ="<<std::endl;
     std::cin>> n;
-    int array[n];// heap allocation stack allocation
+    int* array = new int [n];// heap allocation
     for (int i = 0; i < n; ++i) {
         std::cin>>array[i];
     }
