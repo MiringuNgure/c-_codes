@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/new_try/cfromcplus/cfunc.c
+stdio.h
+-
+cfunc.h
+E:/new_try/cfromcplus/cfunc.h
+
+E:/new_try/cfromcplus/cfunc.h
+

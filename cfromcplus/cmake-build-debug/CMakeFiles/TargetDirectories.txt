@@ -1,0 +1,3 @@
+E:/new_try/cfromcplus/cmake-build-debug/CMakeFiles/cfromcplus.dir
+E:/new_try/cfromcplus/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/new_try/cfromcplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
